@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Gabarito:wght@400;700&family=Montserrat:wght@500;700&family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+</head>
+<body class="font-[gabarito]">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--Aparece abajo en la pagina https://michalsnik.github.io/aos/-->
+    <script>
+        AOS.init();
+      </script>
+    <header class="bg-white w-[100%] h-[70px] flex justify-between items-center px-11 ">
+        <img class="w-[150px]" src="logo.PNG" alt="">
+            <input class="hidden peer/menu" type="checkbox" id="menu">
+            <label class="sm:hidden z-10"   for="menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: #383838;transform: msFilter;"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>
+            </label>
+            <aside class=" hidden peer-checked/menu:block fixed top-0 right-0 bg-white w-[300px] h-screen text-[#383838] z-20 ">
+                <div class=" mt-[100px] flex flex-col justify-center items-center font-bold text-[25px]">
+                <a href="">Inicio</a>
+                <a href=""> Acerca de</a>
+                <a href="">Más información</a>
+            </div>
+            </aside>
+            
+            <div class=" hidden text-[#383838] sm:flex gap-[40px] font-bold">
+                <a href="">Inicio</a>
+                <a href=""> Acerca de</a>
+                <a href="">Más información</a>
+            </div>
+    </header>
+    <section >
+        <div class="relative">
+            <div class="absolute w-[100%] h-[50vh] bg-black opacity-70 sm:w-[100%] sm:h-[90vh] ">
+            </div>
+            <div class="w-[100%] h-[50vh] from-current bg-[url('/bg-principal.webp')] bg-no-repeat bg-cover bg-center flex justify-center items-center flex-col sm:w-[100%] sm:h-[90vh] ">
+                <h1 class="font-bold text-[250%] text-white z-[2] text-center sm:text-[500%] " data-aos="fade-right">Los 6 consejos que <br>necesitas saber para tomar las mejores fotos</h1>
+                <p class="text-[#D4CBCB] z-[2] mb-[90px] text-center">Aprende a tomar fotos excepcionales con nuestros seis consejos esenciales. Desde la composición hasta la iluminación, descubre cómo capturar momentos inolvidables.</p>
+                <button class="bg-[#D64D4D] text-white z-[2] w-[250px] h-[50px] " data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">Mas información</button>
+            </div>
+        </div>
+        <div class="flex relative ">
+            <div class="hidden absolute sm:flex flex-col w-[30%] top-0 right-0">
+                <div class="mb-[10px] border-2 pl-[80px]" >
+                    <h3 class=" mt-[50px] mb-[20px] font-bold  text-[20px]">Buscador</h3>
+                    <div class="mb-[30px] flex items-center">
+                    <input class="h-9 w-[200px] border-2 rounded-[50px]" type="text" placeholder="Buscar mas info">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter"><path d="M19.023 16.977a35.13 35.13 0 0 1-1.367-1.384c-.372-.378-.596-.653-.596-.653l-2.8-1.337A6.962 6.962 0 0 0 16 9c0-3.859-3.14-7-7-7S2 5.141 2 9s3.14 7 7 7c1.763 0 3.37-.66 4.603-1.739l1.337 2.8s.275.224.653.596c.387.363.896.854 1.384 1.367l1.358 1.392.604.646 2.121-2.121-.646-.604c-.379-.372-.885-.866-1.391-1.36zM9 14c-2.757 0-5-2.243-5-5s2.243-5 5-5 5 2.243 5 5-2.243 5-5 5z"></path></svg>
+                </div>
+                </div>
+
+                <div class="border-2 pl-[80px]  ">
+                    <h3 class=" mt-[50px] mb-[20px] font-bold  text-[20px]"> Sugerencias</h3>
+                    <div class="flex flex-col">
+                        <div class="flex mb-[20px] ">
+                            <img class="w-[100px] h-[170] mr-[10px]" src="1.webp" alt="">
+                            <div class="">
+                                <h3 class="font-bold ">Experimenta con la iluminación natural</h3>
+                                <p class="text-[#767373]">Ver ahora</p>
+                             </div>
+                            
+                        </div>
+                        
+                        <div class="flex ">
+                            <div class="flex mb-[20px] ">
+                                <img class="w-[100px] h-[170] mr-[10px]" src="8.webp" alt="">
+                                <div class="">
+                                    <h3 class="font-bold ">Juega con la perspectiva</h3>
+                                    <p class="text-[#767373]">Ver ahora</p>
+                                </div>  
+                        
+                        
+                            </div>
+
+                        </div>
+                        <div class="flex ">
+                            <div class="flex mb-[20px] ">
+                                <img class="w-[100px] h-[170] mr-[10px]" src="7.webp" alt="">
+                                <div class="">
+                                    <h3 class="font-bold ">Aprende sobre la regla de los tercios</h3>
+                                    <p class="text-[#767373]">Ver ahora</p>
+                                </div>  
+                        
+                        
+                            </div>
+
+                        </div>
+                        <div class="flex ">
+                            <div class="flex mb-[20px] ">
+                                <img class="w-[100px] h-[170] mr-[10px]" src="9.webp.jpg" alt="">
+                                <div class="">
+                                    <h3 class="font-bold ">Utiliza la profundidad de campo</h3>
+                                    <p class="text-[#767373]">Ver ahora</p>
+                                </div>  
+                        
+                        
+                            </div>
+
+                        </div>
+                        <div class="flex ">
+                            <div class="flex mb-[20px] ">
+                                <img class="w-[100px] h-[170] mr-[10px]" src="1.webp" alt="">
+                                <div class="">
+                                    <h3 class="font-bold ">Explora la fotografía de retratos</h3>
+                                    <p class="text-[#767373]">Ver ahora</p>
+                                </div>  
+                        
+                        
+                            </div>
+
+                        </div>
+                        <div class="flex ">
+                            <div class="flex mb-[20px] ">
+                                <img class="w-[100px] h-[170] mr-[10px]" src="ulti.jpeg" alt="">
+                                <div class="">
+                                    <h3 class="font-bold ">Edita tus fotos</h3>
+                                    <p class="text-[#767373]">Ver ahora</p>
+                                </div>  
+                        
+                        
+                            </div>
+
+                        </div>
+
+                </div>
+        </div>
+            </div>
+            <div class=" w-[70%] h-[100px] ml-[50px] mr-[50px] mt-[50px] pr-[0] pl-[0] sm:pr-[100px] sm:pl-[100px] "> 
+                <p class="text-[20px] text-justify text-[#6c6a6a]">La fotografía es una forma de arte y expresión que nos permite capturar momentos especiales y compartir nuestra visión del mundo con otros. Para convertirte en un fotógrafo excepcional, es fundamental dominar ciertos conceptos y técnicas. En este artículo, te presentamos seis consejos clave que te ayudarán a mejorar tus habilidades fotográficas y a tomar imágenes inolvidables. Desde comprender la importancia de la luz y la composición hasta dominar la edición, estos consejos te brindarán las herramientas necesarias para elevar tu fotografía a un nuevo nivel. Así que, ¡prepárate para explorar el fascinante mundo de la fotografía y descubrir cómo capturar momentos mágicos con tu cámara!</p>
+
+                <h1 class=" text-[50px] mt-[50px] mb-[30px]">1. Comprende la luz: </h1>
+                <p class="text-[20px] text-justify text-[#6c6a6a]">La luz es el alma de la fotografía. Aprende a reconocer la calidad de la luz en diferentes momentos del día y en diversas condiciones climáticas. La luz suave y dorada al amanecer y al atardecer, conocida como "hora dorada", puede hacer que tus fotos sean cálidas y mágicas. Aprende a ajustar la exposición de tu cámara para adaptarte a la luz disponible y juega con la dirección de la luz para resaltar detalles y texturas en tus sujetos.</p>
+
+                <div class=" w-[100%] h-auto sm:w-[70%] "><img class="overflow-hidden sm:h-[600px] mt-[30px]" src="2.webp" alt="" data-aos="zoom-in"></div>
+                
+
+                <h1 class=" text-[50px] mt-[50px] mb-[30px]">2. Enfoque preciso: </h1>
+                <p class="text-[20px] text-justify text-[#6c6a6a]"> La nitidez es esencial en la fotografía. Utiliza el enfoque automático de tu cámara para la mayoría de las situaciones, pero también domina el enfoque manual para tener un control total sobre qué parte de la imagen debe estar nítida. Asegúrate de enfocar en los ojos de los retratos, ya que esto a menudo crea una conexión más impactante con el espectador.</p>
+                <div class=" w-[100%] h-auto sm:w-[70%]" data-aos="zoom-out-up"  ><img class="overflow-hidden mt-[30px]" src="3.webp.jpg" alt=""></div>
+
+                <h1 class=" text-[50px] mt-[50px] mb-[30px]">3. Regla de los tercios: </h1>
+                <p class="text-[20px] text-justify text-[#6c6a6a]"> La regla de los tercios es una guía de composición poderosa. Divide mentalmente tu encuadre en nueve partes iguales trazando dos líneas horizontales y dos verticales. Coloca elementos clave, como el sujeto principal, en los puntos de intersección de estas líneas para crear una composición equilibrada y visualmente atractiva.</p>
+                <div class=" w-[100%] h-auto sm:w-[70%]" data-aos="zoom-out-up" ><img class="overflow-hidden mt-[30px]" src="4.webp.jpg" alt=""></div>
+
+
+                <h1 class=" text-[50px] mt-[5%] mb-[30px]">4. Experimenta con la perspectiva: </h1>
+                <p class="text-[20px] text-justify text-[#6c6a6a]"> No te limites a disparar desde la altura de tus ojos. Experimenta con diferentes ángulos y alturas. Agáchate, sube a un lugar elevado o dispara desde el suelo para obtener perspectivas únicas y creativas. Cambiar la perspectiva puede hacer que una escena cotidiana se vea completamente diferente.</p>
+                <div class="overflow-hidden w-[70%] h-[470%]" data-aos="zoom-out-up"><img class=" max-w-[100%] h-auto object-cover mt-[30px]" src="5.webp.jpg" alt=""></div>
+
+                <h1 class=" text-[50px] mt-[50px] mb-[30px]">5. Control de la velocidad de obturación: </h1>
+                <p class="text-[20px] text-justify text-[#6c6a6a]"> La velocidad de obturación determina cuánto tiempo la cámara recoge luz. Velocidades más rápidas, como 1/1000 de segundo, congelan la acción, lo que es ideal para fotografía deportiva. Velocidades más lentas, como 1/30 de segundo, pueden crear efectos de movimiento. Juega con estas configuraciones para expresar la dinámica de tus sujetos.</p>
+                <div class=" w-[100%] h-auto sm:w-[70%]" data-aos="zoom-out-up"  ><img class="overflow-hidden mt-[30px]" src="6.webp.jpg" alt=""></div>
+
+                <h1 class=" text-[50px] mt-[50px] mb-[30px]">6. Edición y postprocesamiento: </h1>
+                <p class="text-[20px] text-justify text-[#6c6a6a]">  La edición es una parte esencial de la fotografía moderna. Utiliza programas de edición como Adobe Lightroom o aplicaciones móviles para ajustar el contraste, la saturación, corregir imperfecciones y dar un toque personal a tus fotos. No exageres con la edición; el objetivo es realzar la imagen, no cambiarla drásticamente.</p>
+                <div class=" w-[100%] h-auto sm:w-[70%]" data-aos="zoom-out-up" ><img class="overflow-hidden mt-[30px]" src="10.webp.jpg" alt=""></div>
+
+                <p class="text-[20px] text-justify text-[#6c6a6a]">La fotografía es un viaje emocionante y creativo que puede enriquecer nuestras vidas de muchas maneras. Con los seis consejos presentados, has adquirido conocimientos clave para dominar esta forma de arte. Comprender la luz, enfocar con precisión, aplicar la regla de los tercios, experimentar con la perspectiva, controlar la velocidad de obturación y perfeccionar tus imágenes mediante la edición son las herramientas que te ayudarán a contar historias visuales impactantes.
+                    <br>
+                Sin embargo, recuerda que la fotografía es una habilidad que se mejora con el tiempo y la práctica constante. No tengas miedo de experimentar y explorar tu creatividad. ¡Sal ahí fuera y captura momentos inolvidables con tu cámara! Ya sea como un pasatiempo apasionante o una carrera profesional, la fotografía te permite compartir tu perspectiva única con el mundo. ¡Que cada foto que tomes cuente y sigas creciendo como fotógrafo!</p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+</body>
+</html>
